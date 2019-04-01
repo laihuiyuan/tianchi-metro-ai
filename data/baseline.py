@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+"""
+Generate previous day's data as result.
+"""
+
 import datetime
 import numpy as np
 import pandas as pd
