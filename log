@@ -1,0 +1,631 @@
+Baseline A:
+(180922, 21) (9124, 21) (11664, 21)
+[LightGBM] [Info] Total Bins 3382
+[LightGBM] [Info] Number of data: 171798, number of used features: 21
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 10.5241	valid's l1: 13.6105
+[2000]	train's l1: 9.903	valid's l1: 13.3471
+[3000]	train's l1: 9.48624	valid's l1: 13.2306
+[4000]	train's l1: 9.16599	valid's l1: 13.1704
+Early stopping, best iteration is:
+[4021]	train's l1: 9.16003	valid's l1: 13.169
+[LightGBM] [Info] Finished loading 4021 models
+[LightGBM] [Info] Total Bins 3384
+[LightGBM] [Info] Number of data: 171798, number of used features: 21
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 11.9306	valid's l1: 15.5582
+[2000]	train's l1: 11.2897	valid's l1: 15.2088
+[3000]	train's l1: 10.8122	valid's l1: 15.0551
+[4000]	train's l1: 10.4376	valid's l1: 14.9835
+Early stopping, best iteration is:
+[4467]	train's l1: 10.2875	valid's l1: 14.961   14.065
+
+(162857, 47) (9124, 47) (11664, 47)
+[LightGBM] [Info] Total Bins 8791
+[LightGBM] [Info] Number of data: 162857, number of used features: 47
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 14.7439	valid's l1: 17.1319
+[2000]	train's l1: 13.6447	valid's l1: 16.6564
+[3000]	train's l1: 12.9466	valid's l1: 16.462
+[4000]	train's l1: 12.4254	valid's l1: 16.3129
+[5000]	train's l1: 11.9909	valid's l1: 16.2387
+[6000]	train's l1: 11.6138	valid's l1: 16.1898
+[7000]	train's l1: 11.2739	valid's l1: 16.1535
+[8000]	train's l1: 10.9745	valid's l1: 16.1318
+[9000]	train's l1: 10.6914	valid's l1: 16.1173
+[10000]	train's l1: 10.4316	valid's l1: 16.1023
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 10.4316	valid's l1: 16.1023
+[LightGBM] [Info] Finished loading 10000 models
+[LightGBM] [Info] Total Bins 8791
+[LightGBM] [Info] Number of data: 162857, number of used features: 47
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 15.986	valid's l1: 18.0163
+[2000]	train's l1: 15.0038	valid's l1: 17.8154
+[3000]	train's l1: 14.3395	valid's l1: 17.6973
+[4000]	train's l1: 13.813	valid's l1: 17.6246
+[5000]	train's l1: 13.3593	valid's l1: 17.5614
+[6000]	train's l1: 12.9583	valid's l1: 17.5134
+[7000]	train's l1: 12.6043	valid's l1: 17.4852
+Early stopping, best iteration is:
+[7054]	train's l1: 12.5865	valid's l1: 17.4843
+
+-----------------------------------------------------------------------------------
+baseline B:
+(216782, 48) (9153, 48) (11664, 48)
+[LightGBM] [Info] Total Bins 8807
+[LightGBM] [Info] Number of data: 216782, number of used features: 48
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 15.7751	valid's l1: 20.0166
+[2000]	train's l1: 14.5269	valid's l1: 18.467
+[3000]	train's l1: 13.7787	valid's l1: 17.792
+[4000]	train's l1: 13.2386	valid's l1: 17.4781
+[5000]	train's l1: 12.8061	valid's l1: 17.2761
+[6000]	train's l1: 12.4357	valid's l1: 17.1141
+[7000]	train's l1: 12.1055	valid's l1: 16.9756
+[8000]	train's l1: 11.81	valid's l1: 16.8505
+[9000]	train's l1: 11.5337	valid's l1: 16.726
+[10000]	train's l1: 11.2811	valid's l1: 16.6477
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 11.2811	valid's l1: 16.6477
+[LightGBM] [Info] Finished loading 10000 models
+[LightGBM] [Info] Total Bins 8807
+[LightGBM] [Info] Number of data: 216782, number of used features: 48
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 16.9841	valid's l1: 21.9862
+[2000]	train's l1: 15.9206	valid's l1: 20.9064
+[3000]	train's l1: 15.2817	valid's l1: 20.5468
+[4000]	train's l1: 14.7665	valid's l1: 20.3243
+[5000]	train's l1: 14.3337	valid's l1: 20.1723
+[6000]	train's l1: 13.9579	valid's l1: 20.0591
+[7000]	train's l1: 13.6211	valid's l1: 19.9696
+[8000]	train's l1: 13.3085	valid's l1: 19.9164
+[9000]	train's l1: 13.0159	valid's l1: 19.8622
+[10000]	train's l1: 12.7444	valid's l1: 19.8266
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 12.7444	valid's l1: 19.8266
+[LightGBM] [Info] Finished loading 10000 models
+
+(216782, 40) (9153, 40) (11664, 40)
+[LightGBM] [Info] Total Bins 7640
+[LightGBM] [Info] Number of data: 216782, number of used features: 40
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 15.239	valid's l1: 19.3338
+[2000]	train's l1: 14.0809	valid's l1: 18.053
+[3000]	train's l1: 13.3177	valid's l1: 17.4616
+[4000]	train's l1: 12.7597	valid's l1: 17.133
+[5000]	train's l1: 12.3117	valid's l1: 16.8929
+[6000]	train's l1: 11.9262	valid's l1: 16.7293
+[7000]	train's l1: 11.594	valid's l1: 16.6098
+[8000]	train's l1: 11.2913	valid's l1: 16.5081
+[9000]	train's l1: 11.0182	valid's l1: 16.4338
+[10000]	train's l1: 10.7648	valid's l1: 16.3699
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 10.7648	valid's l1: 16.3699
+[LightGBM] [Info] Finished loading 10000 models
+[LightGBM] [Info] Total Bins 7640
+[LightGBM] [Info] Number of data: 216782, number of used features: 40
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 16.4773	valid's l1: 21.4606
+[2000]	train's l1: 15.4598	valid's l1: 20.5868
+[3000]	train's l1: 14.802	valid's l1: 20.2392
+[4000]	train's l1: 14.2845	valid's l1: 20.0519
+[5000]	train's l1: 13.8368	valid's l1: 19.8956
+[6000]	train's l1: 13.4384	valid's l1: 19.7735
+[7000]	train's l1: 13.088	valid's l1: 19.6827
+[8000]	train's l1: 12.76	valid's l1: 19.6161
+[9000]	train's l1: 12.4531	valid's l1: 19.5547
+[10000]	train's l1: 12.174	valid's l1: 19.5127
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 12.174	valid's l1: 19.5127
+[LightGBM] [Info] Finished loading 10000 models
+
+(216782, 42) (9153, 42) (11664, 42)
+[LightGBM] [Info] Total Bins 7681
+[LightGBM] [Info] Number of data: 216782, number of used features: 42
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 15.2414	valid's l1: 19.3023
+[2000]	train's l1: 14.0689	valid's l1: 18.1086
+[3000]	train's l1: 13.3056	valid's l1: 17.4626
+[4000]	train's l1: 12.7453	valid's l1: 17.1265
+[5000]	train's l1: 12.2906	valid's l1: 16.9027
+[6000]	train's l1: 11.903	valid's l1: 16.696
+[7000]	train's l1: 11.5627	valid's l1: 16.571
+[8000]	train's l1: 11.2589	valid's l1: 16.4547
+[9000]	train's l1: 10.9864	valid's l1: 16.3763
+[10000]	train's l1: 10.7255	valid's l1: 16.3166
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 10.7255	valid's l1: 16.3166
+[LightGBM] [Info] Finished loading 10000 models
+[LightGBM] [Info] Total Bins 7681
+[LightGBM] [Info] Number of data: 216782, number of used features: 42
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 16.4868	valid's l1: 21.6056
+[2000]	train's l1: 15.4627	valid's l1: 20.7366
+[3000]	train's l1: 14.7907	valid's l1: 20.3536
+[4000]	train's l1: 14.2594	valid's l1: 20.117
+[5000]	train's l1: 13.8158	valid's l1: 19.9566
+[6000]	train's l1: 13.4157	valid's l1: 19.8318
+[7000]	train's l1: 13.0587	valid's l1: 19.7225
+[8000]	train's l1: 12.7305	valid's l1: 19.645
+[9000]	train's l1: 12.4196	valid's l1: 19.5701
+[10000]	train's l1: 12.136	valid's l1: 19.5151
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 12.136	valid's l1: 19.5151
+5-fold:
+MAE: 16.30642009630687   MAE: 19.43903945620735
+
+(216782, 46) (9153, 46) (11664, 46)
+[LightGBM] [Info] Total Bins 7834
+[LightGBM] [Info] Number of data: 216782, number of used features: 46
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 15.1637	valid's l1: 19.0652
+[2000]	train's l1: 13.995	valid's l1: 17.7919
+[3000]	train's l1: 13.2464	valid's l1: 17.2638
+[4000]	train's l1: 12.6961	valid's l1: 16.9269
+[5000]	train's l1: 12.2493	valid's l1: 16.7025
+[6000]	train's l1: 11.8611	valid's l1: 16.5116
+[7000]	train's l1: 11.5253	valid's l1: 16.3781
+[8000]	train's l1: 11.223	valid's l1: 16.2867
+[9000]	train's l1: 10.949	valid's l1: 16.2124
+[10000]	train's l1: 10.6935	valid's l1: 16.1593
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 10.6935	valid's l1: 16.1593
+[LightGBM] [Info] Finished loading 10000 models
+[LightGBM] [Info] Total Bins 7834
+[LightGBM] [Info] Number of data: 216782, number of used features: 46
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 16.4886	valid's l1: 21.7019
+[2000]	train's l1: 15.4628	valid's l1: 20.801
+[3000]	train's l1: 14.7799	valid's l1: 20.3778
+[4000]	train's l1: 14.245	valid's l1: 20.1033
+[5000]	train's l1: 13.7975	valid's l1: 19.926
+[6000]	train's l1: 13.4056	valid's l1: 19.7866
+[7000]	train's l1: 13.0511	valid's l1: 19.6777
+[8000]	train's l1: 12.7207	valid's l1: 19.5881
+[9000]	train's l1: 12.4083	valid's l1: 19.509
+[10000]	train's l1: 12.121	valid's l1: 19.4453
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 12.121	valid's l1: 19.4453
+-----------------------------------------------------------------------------------
+
+(189740, 46) (8985, 46) (11664, 46)
+[LightGBM] [Info] Total Bins 7820
+[LightGBM] [Info] Number of data: 189740, number of used features: 46
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 14.7086	valid's l1: 15.5199
+[2000]	train's l1: 13.6154	valid's l1: 14.1475
+[3000]	train's l1: 12.893	valid's l1: 13.2845
+[4000]	train's l1: 12.3422	valid's l1: 12.5714
+[5000]	train's l1: 11.8893	valid's l1: 12.0211
+[6000]	train's l1: 11.4984	valid's l1: 11.585
+[7000]	train's l1: 11.1507	valid's l1: 11.1978
+[8000]	train's l1: 10.8452	valid's l1: 10.8823
+[9000]	train's l1: 10.5559	valid's l1: 10.5749
+[10000]	train's l1: 10.2944	valid's l1: 10.3041
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 10.2944	valid's l1: 10.3041
+[LightGBM] [Info] Finished loading 10000 models
+[LightGBM] [Info] Total Bins 7820
+[LightGBM] [Info] Number of data: 189740, number of used features: 46
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 15.8489	valid's l1: 15.6155
+[2000]	train's l1: 14.9009	valid's l1: 14.6802
+[3000]	train's l1: 14.2436	valid's l1: 14.0112
+[4000]	train's l1: 13.7126	valid's l1: 13.4311
+[5000]	train's l1: 13.2635	valid's l1: 12.9914
+[6000]	train's l1: 12.8726	valid's l1: 12.6042
+[7000]	train's l1: 12.5156	valid's l1: 12.254
+[8000]	train's l1: 12.1828	valid's l1: 11.9142
+[9000]	train's l1: 11.8738	valid's l1: 11.5967
+[10000]	train's l1: 11.5863	valid's l1: 11.2955
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 11.5863	valid's l1: 11.2955
+[LightGBM] [Info] Finished loading 10000 models
+-----------------------------------------------------------------------------------
+(279936, 52) (9153, 52) (11664, 52)
+[LightGBM] [Info] Total Bins 9473
+[LightGBM] [Info] Number of data: 279936, number of used features: 52
+[LightGBM] [Info] Start training from score 100.161726
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 11.8484	valid's l1: 19.2086
+[2000]	train's l1: 10.9186	valid's l1: 18.0391
+[3000]	train's l1: 10.3096	valid's l1: 17.5213
+[4000]	train's l1: 9.88009	valid's l1: 17.2721
+[5000]	train's l1: 9.51383	valid's l1: 17.0745
+[6000]	train's l1: 9.20097	valid's l1: 16.9244
+[7000]	train's l1: 8.91681	valid's l1: 16.7775
+[8000]	train's l1: 8.66925	valid's l1: 16.684
+[9000]	train's l1: 8.43436	valid's l1: 16.5744
+[10000]	train's l1: 8.21832	valid's l1: 16.4826
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 8.21832	valid's l1: 16.4826
+[LightGBM] [Info] Total Bins 9473
+[LightGBM] [Info] Number of data: 279936, number of used features: 52
+[LightGBM] [Info] Start training from score 100.232810
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 12.9396	valid's l1: 21.8129
+[2000]	train's l1: 12.0735	valid's l1: 20.7912
+[3000]	train's l1: 11.5328	valid's l1: 20.4587
+[4000]	train's l1: 11.0928	valid's l1: 20.2163
+[5000]	train's l1: 10.7201	valid's l1: 20.0708
+[6000]	train's l1: 10.3861	valid's l1: 19.9386
+[7000]	train's l1: 10.0941	valid's l1: 19.8408
+[8000]	train's l1: 9.82458	valid's l1: 19.7719
+[9000]	train's l1: 9.57914	valid's l1: 19.7088
+[10000]	train's l1: 9.3449	valid's l1: 19.659
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 9.3449	valid's l1: 19.659
+
+5-fold:42
+MAE: 16.34450852398863   MAE: 19.52377568514177
+
+
+Index(['stationID', 'week', 'weekend', 'day', 'hour', 'minute', 'payType',
+       'inNums', 'outNums', 'dID_of_sID', 'dID_of_sID_h', 'dID_of_sID_hm',
+       'day_since_first', 'inDID_h_max', 'inDID_h_mean', 'inDID_h_min',
+       'inNums_p', 'inNums_log', 'in_h_max', 'in_h_mean', 'in_h_min',
+       'in_hm_max', 'in_hm_mean', 'in_hm_min', 'in_wh_max', 'in_wh_mean',
+       'in_wh_min', 'in_whm_max', 'in_whm_mean', 'in_whm_min', 'outDID_h_max',
+       'outDID_h_mean', 'outDID_h_min', 'outNums_p', 'outNums_log',
+       'out_h_max', 'out_h_mean', 'out_h_min', 'out_hm_max', 'out_hm_mean',
+       'out_hm_min', 'out_wh_max', 'out_wh_mean', 'out_wh_min', 'out_whm_max',
+       'out_whm_mean', 'out_whm_min', 'week_p', 'weekend_p', 'mapSVD1',
+       'mapSVD2', 'map00', 'map01', 'map02', 'map03', 'weatsvd1', 'weatsvd2'],
+      dtype='object')
+(830903, 46) (35089, 46) (11664, 46)
+[LightGBM] [Info] Total Bins 6602
+[LightGBM] [Info] Number of data: 203662, number of used features: 46
+[LightGBM] [Info] Start training from score 18.655788
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.70941	valid's l1: 3.8436
+[2000]	train's l1: 3.44092	valid's l1: 3.67454
+[3000]	train's l1: 3.27673	valid's l1: 3.61745
+[4000]	train's l1: 3.14829	valid's l1: 3.57889
+[5000]	train's l1: 3.04466	valid's l1: 3.55603
+[6000]	train's l1: 2.95497	valid's l1: 3.53775
+[7000]	train's l1: 2.87376	valid's l1: 3.52091
+[8000]	train's l1: 2.80129	valid's l1: 3.51318
+[9000]	train's l1: 2.73369	valid's l1: 3.50516
+[10000]	train's l1: 2.6706	valid's l1: 3.49835
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 2.6706	valid's l1: 3.49835
+[LightGBM] [Info] Total Bins 6602
+[LightGBM] [Info] Number of data: 203662, number of used features: 46
+[LightGBM] [Info] Start training from score 18.626784
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.90548	valid's l1: 4.02455
+[2000]	train's l1: 3.63871	valid's l1: 3.90049
+[3000]	train's l1: 3.47443	valid's l1: 3.86492
+[4000]	train's l1: 3.34812	valid's l1: 3.84688
+[5000]	train's l1: 3.24237	valid's l1: 3.82835
+[6000]	train's l1: 3.14932	valid's l1: 3.81408
+[7000]	train's l1: 3.06592	valid's l1: 3.80299
+[8000]	train's l1: 2.98908	valid's l1: 3.79455
+[9000]	train's l1: 2.91923	valid's l1: 3.78921
+Early stopping, best iteration is:
+[9290]	train's l1: 2.89956	valid's l1: 3.78768
+[LightGBM] [Info] Total Bins 6600
+[LightGBM] [Info] Number of data: 207576, number of used features: 46
+[LightGBM] [Info] Start training from score 60.863660
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 8.85084	valid's l1: 11.5223
+[2000]	train's l1: 8.13843	valid's l1: 10.6172
+[3000]	train's l1: 7.71967	valid's l1: 10.2193
+[4000]	train's l1: 7.40715	valid's l1: 9.97803
+[5000]	train's l1: 7.1505	valid's l1: 9.81072
+[6000]	train's l1: 6.92984	valid's l1: 9.7077
+[7000]	train's l1: 6.73353	valid's l1: 9.61554
+[8000]	train's l1: 6.55852	valid's l1: 9.55029
+[9000]	train's l1: 6.39776	valid's l1: 9.49715
+[10000]	train's l1: 6.2474	valid's l1: 9.45035
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 6.2474	valid's l1: 9.45035
+[LightGBM] [Info] Total Bins 6600
+[LightGBM] [Info] Number of data: 207576, number of used features: 46
+[LightGBM] [Info] Start training from score 60.706353
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 9.25126	valid's l1: 11.7383
+[2000]	train's l1: 8.6498	valid's l1: 11.223
+[3000]	train's l1: 8.2749	valid's l1: 10.9977
+[4000]	train's l1: 7.98417	valid's l1: 10.85
+[5000]	train's l1: 7.72535	valid's l1: 10.7399
+[6000]	train's l1: 7.50437	valid's l1: 10.6719
+[7000]	train's l1: 7.30382	valid's l1: 10.6219
+[8000]	train's l1: 7.11955	valid's l1: 10.5801
+[9000]	train's l1: 6.94661	valid's l1: 10.542
+[10000]	train's l1: 6.78446	valid's l1: 10.5112
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 6.78446	valid's l1: 10.5112
+[LightGBM] [Info] Total Bins 6598
+[LightGBM] [Info] Number of data: 207124, number of used features: 46
+[LightGBM] [Info] Start training from score 41.119301
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 6.76836	valid's l1: 7.30513
+[2000]	train's l1: 6.28772	valid's l1: 6.98863
+[3000]	train's l1: 5.98989	valid's l1: 6.85546
+[4000]	train's l1: 5.7648	valid's l1: 6.78455
+[5000]	train's l1: 5.57434	valid's l1: 6.72523
+[6000]	train's l1: 5.40924	valid's l1: 6.68011
+[7000]	train's l1: 5.2604	valid's l1: 6.65106
+[8000]	train's l1: 5.12428	valid's l1: 6.62655
+[9000]	train's l1: 4.99875	valid's l1: 6.61174
+[10000]	train's l1: 4.88266	valid's l1: 6.60028
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 4.88266	valid's l1: 6.60028
+[LightGBM] [Info] Total Bins 6598
+[LightGBM] [Info] Number of data: 207124, number of used features: 46
+[LightGBM] [Info] Start training from score 41.333042
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 7.04256	valid's l1: 7.83266
+[2000]	train's l1: 6.57552	valid's l1: 7.55844
+[3000]	train's l1: 6.28207	valid's l1: 7.45138
+[4000]	train's l1: 6.05513	valid's l1: 7.38661
+[5000]	train's l1: 5.86304	valid's l1: 7.33869
+[6000]	train's l1: 5.69377	valid's l1: 7.30014
+[7000]	train's l1: 5.54311	valid's l1: 7.27591
+[8000]	train's l1: 5.4045	valid's l1: 7.25419
+[9000]	train's l1: 5.27714	valid's l1: 7.24082
+[10000]	train's l1: 5.15678	valid's l1: 7.22791
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 5.15678	valid's l1: 7.22791
+[LightGBM] [Info] Total Bins 6597
+[LightGBM] [Info] Number of data: 212541, number of used features: 46
+[LightGBM] [Info] Start training from score 14.532580
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.88065	valid's l1: 5.01388
+[2000]	train's l1: 3.64296	valid's l1: 4.86908
+[3000]	train's l1: 3.49004	valid's l1: 4.80855
+[4000]	train's l1: 3.37098	valid's l1: 4.77212
+[5000]	train's l1: 3.27183	valid's l1: 4.74723
+[6000]	train's l1: 3.18444	valid's l1: 4.73123
+[7000]	train's l1: 3.10526	valid's l1: 4.71929
+[8000]	train's l1: 3.03303	valid's l1: 4.71014
+[9000]	train's l1: 2.96516	valid's l1: 4.70193
+[10000]	train's l1: 2.90207	valid's l1: 4.69508
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 2.90207	valid's l1: 4.69508
+[LightGBM] [Info] Total Bins 6597
+[LightGBM] [Info] Number of data: 212541, number of used features: 46
+[LightGBM] [Info] Start training from score 14.599334
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.76138	valid's l1: 4.81019
+[2000]	train's l1: 3.53378	valid's l1: 4.68424
+[3000]	train's l1: 3.38933	valid's l1: 4.63559
+[4000]	train's l1: 3.2768	valid's l1: 4.61413
+[5000]	train's l1: 3.18091	valid's l1: 4.59773
+[6000]	train's l1: 3.09573	valid's l1: 4.58914
+[7000]	train's l1: 3.01882	valid's l1: 4.57999
+Early stopping, best iteration is:
+[7423]	train's l1: 2.98847	valid's l1: 4.57793
+MAE: 16.03331604432826
+MAE: 18.78311343021771
+
+[LightGBM] [Info] Total Bins 6737
+[LightGBM] [Info] Number of data: 203662, number of used features: 48
+[LightGBM] [Info] Start training from score 18.655788
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.67721	valid's l1: 3.80565
+[2000]	train's l1: 3.40398	valid's l1: 3.63911
+[3000]	train's l1: 3.23645	valid's l1: 3.5865
+[4000]	train's l1: 3.10844	valid's l1: 3.54931
+[5000]	train's l1: 3.00321	valid's l1: 3.52721
+[6000]	train's l1: 2.91243	valid's l1: 3.51388
+[7000]	train's l1: 2.82978	valid's l1: 3.50323
+[8000]	train's l1: 2.75469	valid's l1: 3.49523
+[9000]	train's l1: 2.685	valid's l1: 3.48938
+[10000]	train's l1: 2.62015	valid's l1: 3.48515
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 2.62015	valid's l1: 3.48515
+[LightGBM] [Info] Total Bins 6737
+[LightGBM] [Info] Number of data: 212235, number of used features: 48
+[LightGBM] [Info] Start training from score 18.489090
+[1000]	train's l1: 3.66941
+[2000]	train's l1: 3.40919
+[3000]	train's l1: 3.24179
+[4000]	train's l1: 3.11662
+[5000]	train's l1: 3.0141
+[6000]	train's l1: 2.92376
+[7000]	train's l1: 2.84454
+[8000]	train's l1: 2.77094
+[9000]	train's l1: 2.70292
+[10000]	train's l1: 2.63976
+[LightGBM] [Info] Total Bins 6737
+[LightGBM] [Info] Number of data: 203662, number of used features: 48
+[LightGBM] [Info] Start training from score 18.626784
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.8763	valid's l1: 4.00138
+[2000]	train's l1: 3.6037	valid's l1: 3.88603
+[3000]	train's l1: 3.43805	valid's l1: 3.84641
+[4000]	train's l1: 3.30925	valid's l1: 3.82446
+[5000]	train's l1: 3.20119	valid's l1: 3.80852
+[6000]	train's l1: 3.10643	valid's l1: 3.79749
+[7000]	train's l1: 3.02045	valid's l1: 3.78989
+[8000]	train's l1: 2.94168	valid's l1: 3.7809
+[9000]	train's l1: 2.86924	valid's l1: 3.77681
+Early stopping, best iteration is:
+[9099]	train's l1: 2.86231	valid's l1: 3.77603
+[LightGBM] [Info] Total Bins 6737
+[LightGBM] [Info] Number of data: 212235, number of used features: 48
+[LightGBM] [Info] Start training from score 18.459778
+[1000]	train's l1: 3.87273
+[2000]	train's l1: 3.61194
+[3000]	train's l1: 3.4486
+[4000]	train's l1: 3.32237
+[5000]	train's l1: 3.21724
+[6000]	train's l1: 3.12519
+[7000]	train's l1: 3.04154
+[8000]	train's l1: 2.96533
+[9000]	train's l1: 2.89467
+[LightGBM] [Info] Total Bins 6735
+[LightGBM] [Info] Number of data: 207576, number of used features: 48
+[LightGBM] [Info] Start training from score 60.863660
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 8.76421	valid's l1: 11.3575
+[2000]	train's l1: 8.05734	valid's l1: 10.5338
+[3000]	train's l1: 7.62189	valid's l1: 10.1227
+[4000]	train's l1: 7.30804	valid's l1: 9.91731
+[5000]	train's l1: 7.04788	valid's l1: 9.76143
+[6000]	train's l1: 6.82309	valid's l1: 9.6656
+[7000]	train's l1: 6.62591	valid's l1: 9.59069
+[8000]	train's l1: 6.44471	valid's l1: 9.52701
+[9000]	train's l1: 6.27946	valid's l1: 9.4733
+[10000]	train's l1: 6.12589	valid's l1: 9.43791
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 6.12589	valid's l1: 9.43791
+[LightGBM] [Info] Total Bins 6740
+[LightGBM] [Info] Number of data: 216374, number of used features: 48
+[LightGBM] [Info] Start training from score 60.800651
+[1000]	train's l1: 8.8018
+[2000]	train's l1: 8.0927
+[3000]	train's l1: 7.66657
+[4000]	train's l1: 7.35284
+[5000]	train's l1: 7.09142
+[6000]	train's l1: 6.87067
+[7000]	train's l1: 6.67305
+[8000]	train's l1: 6.49691
+[9000]	train's l1: 6.33322
+[10000]	train's l1: 6.18221
+[LightGBM] [Info] Total Bins 6735
+[LightGBM] [Info] Number of data: 207576, number of used features: 48
+[LightGBM] [Info] Start training from score 60.706353
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 9.1967	valid's l1: 11.7929
+[2000]	train's l1: 8.58018	valid's l1: 11.2311
+[3000]	train's l1: 8.1954	valid's l1: 11.0032
+[4000]	train's l1: 7.89171	valid's l1: 10.8634
+[5000]	train's l1: 7.62815	valid's l1: 10.7693
+[6000]	train's l1: 7.39937	valid's l1: 10.7155
+[7000]	train's l1: 7.19069	valid's l1: 10.6619
+[8000]	train's l1: 6.99965	valid's l1: 10.6251
+[9000]	train's l1: 6.81864	valid's l1: 10.5835
+[10000]	train's l1: 6.65078	valid's l1: 10.5565
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 6.65078	valid's l1: 10.5565
+[LightGBM] [Info] Total Bins 6740
+[LightGBM] [Info] Number of data: 216374, number of used features: 48
+[LightGBM] [Info] Start training from score 60.637785
+[1000]	train's l1: 9.24586
+[2000]	train's l1: 8.63543
+[3000]	train's l1: 8.25171
+[4000]	train's l1: 7.95198
+[5000]	train's l1: 7.69528
+[6000]	train's l1: 7.46798
+[7000]	train's l1: 7.26318
+[8000]	train's l1: 7.07305
+[9000]	train's l1: 6.8981
+[10000]	train's l1: 6.73567
+[LightGBM] [Info] Total Bins 6733
+[LightGBM] [Info] Number of data: 207124, number of used features: 48
+[LightGBM] [Info] Start training from score 41.119301
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 6.70533	valid's l1: 7.22188
+[2000]	train's l1: 6.219	valid's l1: 6.91552
+[3000]	train's l1: 5.91754	valid's l1: 6.788
+[4000]	train's l1: 5.68636	valid's l1: 6.71411
+[5000]	train's l1: 5.49224	valid's l1: 6.66367
+[6000]	train's l1: 5.32242	valid's l1: 6.62893
+[7000]	train's l1: 5.17005	valid's l1: 6.59826
+[8000]	train's l1: 5.0311	valid's l1: 6.58086
+[9000]	train's l1: 4.90231	valid's l1: 6.5653
+[10000]	train's l1: 4.78305	valid's l1: 6.55472
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 4.78305	valid's l1: 6.55472
+[LightGBM] [Info] Total Bins 6735
+[LightGBM] [Info] Number of data: 215879, number of used features: 48
+[LightGBM] [Info] Start training from score 40.928502
+[1000]	train's l1: 6.69324
+[2000]	train's l1: 6.21754
+[3000]	train's l1: 5.92574
+[4000]	train's l1: 5.70031
+[5000]	train's l1: 5.51167
+[6000]	train's l1: 5.34444
+[7000]	train's l1: 5.19558
+[8000]	train's l1: 5.06045
+[9000]	train's l1: 4.93469
+[10000]	train's l1: 4.81701
+[LightGBM] [Info] Total Bins 6733
+[LightGBM] [Info] Number of data: 207124, number of used features: 48
+[LightGBM] [Info] Start training from score 41.333042
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 6.98542	valid's l1: 7.75575
+[2000]	train's l1: 6.51017	valid's l1: 7.50558
+[3000]	train's l1: 6.21123	valid's l1: 7.40627
+[4000]	train's l1: 5.97938	valid's l1: 7.34909
+[5000]	train's l1: 5.78365	valid's l1: 7.31291
+[6000]	train's l1: 5.60878	valid's l1: 7.28
+[7000]	train's l1: 5.45421	valid's l1: 7.26412
+[8000]	train's l1: 5.31117	valid's l1: 7.24838
+[9000]	train's l1: 5.18016	valid's l1: 7.23546
+[10000]	train's l1: 5.05575	valid's l1: 7.22195
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 5.05575	valid's l1: 7.22195
+[LightGBM] [Info] Total Bins 6735
+[LightGBM] [Info] Number of data: 215879, number of used features: 48
+[LightGBM] [Info] Start training from score 41.138730
+[1000]	train's l1: 7.00195
+[2000]	train's l1: 6.53001
+[3000]	train's l1: 6.23787
+[4000]	train's l1: 6.01013
+[5000]	train's l1: 5.81604
+[6000]	train's l1: 5.64819
+[7000]	train's l1: 5.49459
+[8000]	train's l1: 5.3555
+[9000]	train's l1: 5.22516
+[10000]	train's l1: 5.10487
+[LightGBM] [Info] Total Bins 6732
+[LightGBM] [Info] Number of data: 212541, number of used features: 48
+[LightGBM] [Info] Start training from score 14.532580
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.85122	valid's l1: 5.005
+[2000]	train's l1: 3.61208	valid's l1: 4.86591
+[3000]	train's l1: 3.45626	valid's l1: 4.80691
+[4000]	train's l1: 3.33472	valid's l1: 4.77705
+[5000]	train's l1: 3.23245	valid's l1: 4.75542
+[6000]	train's l1: 3.14237	valid's l1: 4.74218
+[7000]	train's l1: 3.06016	valid's l1: 4.72936
+[8000]	train's l1: 2.98614	valid's l1: 4.7222
+[9000]	train's l1: 2.91549	valid's l1: 4.71606
+[10000]	train's l1: 2.84972	valid's l1: 4.70895
+Did not meet early stopping. Best iteration is:
+[10000]	train's l1: 2.84972	valid's l1: 4.70895
+[LightGBM] [Info] Total Bins 6734
+[LightGBM] [Info] Number of data: 221504, number of used features: 48
+[LightGBM] [Info] Start training from score 14.660656
+[1000]	train's l1: 3.8848
+[2000]	train's l1: 3.645
+[3000]	train's l1: 3.49019
+[4000]	train's l1: 3.3694
+[5000]	train's l1: 3.26763
+[6000]	train's l1: 3.17771
+[7000]	train's l1: 3.09636
+[8000]	train's l1: 3.02252
+[9000]	train's l1: 2.95354
+[10000]	train's l1: 2.88895
+[LightGBM] [Info] Total Bins 6732
+[LightGBM] [Info] Number of data: 212541, number of used features: 48
+[LightGBM] [Info] Start training from score 14.599334
+Training until validation scores don't improve for 200 rounds.
+[1000]	train's l1: 3.738	valid's l1: 4.79563
+[2000]	train's l1: 3.50712	valid's l1: 4.67612
+[3000]	train's l1: 3.3583	valid's l1: 4.63271
+[4000]	train's l1: 3.24255	valid's l1: 4.60887
+[5000]	train's l1: 3.14353	valid's l1: 4.59549
+[6000]	train's l1: 3.05591	valid's l1: 4.58603
+[7000]	train's l1: 2.97703	valid's l1: 4.57834
+[8000]	train's l1: 2.90401	valid's l1: 4.57367
+Early stopping, best iteration is:
+[8586]	train's l1: 2.86389	valid's l1: 4.56971
+[LightGBM] [Info] Total Bins 6734
+[LightGBM] [Info] Number of data: 221504, number of used features: 48
+[LightGBM] [Info] Start training from score 14.723165
+[1000]	train's l1: 3.76778
+[2000]	train's l1: 3.53651
+[3000]	train's l1: 3.388
+[4000]	train's l1: 3.2728
+[5000]	train's l1: 3.17459
+[6000]	train's l1: 3.08756
+[7000]	train's l1: 3.01015
+[8000]	train's l1: 2.9384
+MAE: 15.947841861245495
+MAE: 18.796238704469886
