@@ -19,18 +19,14 @@ def MAE(target,predict):
     print('MAE:',MAE)
     return MAE
 
-
 def abs_relative_error(y_pred, y_true):
     return np.mean(np.mean(np.abs(y_pred - y_true) / np.abs(y_pred + y_true)))
-
 
 def abs_relative_error_element(y_pred, y_true):
     return np.abs(y_pred - y_true) / np.abs(y_pred + y_true)
 
-
 def abs_error(y_pred, y_true):
     return np.mean(np.mean(np.abs(y_pred - y_true)))
-
 
 def abs_error_element(y_pred, y_true):
     return np.abs(y_pred - y_true)
